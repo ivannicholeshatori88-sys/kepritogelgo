@@ -1,4 +1,3 @@
-<!doctype html>
 <html amp lang="id">
 <head>
   <meta charset="utf-8">
