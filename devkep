@@ -3,17 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>KepriTogel • Link Resmi (AMP)</title>
+
+  <!-- Canonical -->
   <link rel="canonical" href="https://heylink.me/kepritogelgo">
+
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <!-- AMP Runtime -->
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 
-  <!-- Font -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <!-- Boilerplate -->
-  <style amp-boilerplate>body{visibility:hidden}</style>
-  <noscript><style amp-boilerplate>body{visibility:visible}</style></noscript>
+  <!-- AMP Boilerplate -->
+  <style amp-boilerplate>
+    body { visibility: hidden }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body { visibility: visible }
+    </style>
+  </noscript>
 
+  <!-- Custom Style -->
   <style amp-custom>
     body {
       font-family: 'Poppins', sans-serif;
@@ -54,21 +66,28 @@
       font-weight: 600;
       text-decoration: none;
       border: 1px solid #333;
-      transition: 0.2s;
+      transition: background 0.2s ease;
     }
 
     .link-btn:hover {
       background: #333;
     }
   </style>
+
 </head>
 
 <body>
+
   <div class="container">
 
-    <amp-img src="https://i.ibb.co/GJNg6bp/profile.png"
-             width="120" height="120" class="profile-pic"
-             alt="profile" layout="fixed">
+    <!-- Profile Image -->
+    <amp-img 
+      src="https://i.ibb.co/GJNg6bp/profile.png"
+      width="120"
+      height="120"
+      class="profile-pic"
+      alt="Profile"
+      layout="fixed">
     </amp-img>
 
     <h1>KepriTogel</h1>
@@ -87,5 +106,6 @@
     </a>
 
   </div>
+
 </body>
 </html>
